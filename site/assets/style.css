@@ -280,12 +280,6 @@ nav a {
   margin-bottom: 1.25rem;
 }
 
-.section-heading-link {
-  flex: none;
-  margin-bottom: 0.35rem;
-  white-space: nowrap;
-}
-
 .item-list,
 .post-list {
   border-top: 1px solid var(--line);
@@ -326,6 +320,12 @@ nav a {
 
 #writing .post-preview + .post-preview {
   border-top: 1px solid var(--line);
+}
+
+.writing-more {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.75rem;
 }
 
 .item-meta {
