@@ -150,7 +150,6 @@ nav a {
 
 .eyebrow,
 .section-label p,
-.post-date,
 .project-type {
   color: var(--accent);
   font-size: 0.75rem;
@@ -364,18 +363,8 @@ nav a {
 }
 
 .post-preview {
-  display: grid;
-  grid-template-columns: 9rem minmax(0, 1fr);
-  column-gap: 2rem;
   padding-block: 2rem;
   border-bottom: 1px solid var(--line);
-}
-
-.post-preview .post-date {
-  grid-row: 1 / span 2;
-  margin-top: 0.25rem;
-  color: var(--quiet);
-  line-height: 1.4;
 }
 
 .post-preview h2,
@@ -413,7 +402,7 @@ nav a {
 
 /* Blog pages */
 .page-header {
-  padding-block: clamp(6rem, 12vw, 9rem);
+  padding-block: clamp(6rem, 12vw, 9rem) clamp(3.5rem, 7vw, 6rem);
 }
 
 .page-header h1 {
@@ -428,7 +417,7 @@ nav a {
 }
 
 .blog-list {
-  padding-block: clamp(3rem, 7vw, 6rem);
+  padding-block: clamp(2.5rem, 5vw, 4rem) clamp(3rem, 7vw, 6rem);
 }
 
 .article-header,
@@ -452,17 +441,6 @@ nav a {
   margin-bottom: 1.5rem;
   color: var(--muted);
   font-size: 1.2rem;
-}
-
-.article-meta {
-  display: flex;
-  gap: 0.55rem;
-  margin-bottom: 1.25rem;
-  color: var(--quiet);
-  font-size: 0.72rem;
-  font-weight: 720;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .article-body {
@@ -553,15 +531,6 @@ nav a {
 
   .button-link {
     justify-self: start;
-  }
-
-  .post-preview {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .post-preview .post-date {
-    grid-row: auto;
   }
 
   .site-footer {
