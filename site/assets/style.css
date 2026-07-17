@@ -288,6 +288,38 @@ nav a {
   border-bottom: 1px solid var(--line);
 }
 
+#research.section {
+  border-top: 0;
+}
+
+#research .item-list {
+  border-top: 0;
+}
+
+#research .item {
+  border-bottom: 0;
+}
+
+#research .item + .item {
+  border-top: 1px solid var(--line);
+}
+
+#writing.section {
+  border-top: 0;
+}
+
+#writing .post-list {
+  border-top: 0;
+}
+
+#writing .post-preview {
+  border-bottom: 0;
+}
+
+#writing .post-preview + .post-preview {
+  border-top: 1px solid var(--line);
+}
+
 .item-meta {
   display: flex;
   gap: 1rem;
