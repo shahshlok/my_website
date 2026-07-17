@@ -10,7 +10,10 @@
 ## Research
 
 - [What I'm researching](https://shahshlok.com/#research): Accepted papers on whether AI systems understand individual students and how an instructor-facing tool can show uncertainty.
-- Paper and artifact links currently point to temporary placeholders and are not authoritative sources yet.
+- [Do LLM Student Models Track the Student or the Situation?](https://shahshlok.com/assets/papers/identity-perturbation-sigcse-2026.pdf): SIGCSE Virtual 2026 paper.
+- [Identity perturbation research artifact](https://github.com/shahshlok/llm-student-identity-perturbation): Code and supporting materials.
+- [Towards Belief Attribution with Instructor-Facing LLMs](https://shahshlok.com/assets/papers/belief-attribution-icl-2026.pdf): ICL 2026 paper.
+- [Belief attribution research artifact](https://github.com/shahshlok/belief-attribution-tracer): Code and supporting materials.
 
 ## Writing
 
