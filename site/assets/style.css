@@ -280,19 +280,10 @@ nav a {
   margin-bottom: 1.25rem;
 }
 
-.section-heading-arrow {
+.section-heading-link {
   flex: none;
-  color: var(--text);
-  font-size: clamp(1.8rem, 3vw, 2.4rem);
-  font-weight: 500;
-  line-height: 1;
-  text-decoration: none;
-  transition: color 160ms ease, transform 160ms ease;
-}
-
-.section-heading-arrow:hover {
-  color: var(--accent);
-  transform: translate(0.15rem, -0.15rem);
+  margin-bottom: 0.35rem;
+  white-space: nowrap;
 }
 
 .item-list,
