@@ -10,6 +10,7 @@
 ## Research
 
 - [What I'm researching](https://shahshlok.com/#research): Accepted papers on whether AI systems understand individual students and how an instructor-facing tool can show uncertainty.
+- Paper and artifact links currently point to temporary placeholders and are not authoritative sources yet.
 
 ## Writing
 

@@ -318,6 +318,12 @@ nav a {
   margin-top: 0.4rem;
 }
 
+.item-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
 .featured-project {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
