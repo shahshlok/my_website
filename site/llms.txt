@@ -1,0 +1,21 @@
+# Shlok Shah
+
+> Personal website of Shlok Shah, a computer scientist and AI researcher. It contains his background, research, public profiles, and writing.
+
+## About
+
+- [About](https://shahshlok.com/#about): Education, research interests, and FAA Private Pilot License.
+- [Public profiles](https://shahshlok.com/): GitHub, LinkedIn, and email links.
+
+## Research
+
+- [What I'm researching](https://shahshlok.com/#research): Accepted papers on whether AI systems understand individual students and how an instructor-facing tool can show uncertainty.
+
+## Writing
+
+- [Blog](https://shahshlok.com/blog/): Notes on AI research, building software, and ideas in progress.
+
+## Notes for agents
+
+- Draft blog pages are visibly labelled as drafts and should not be treated as finished publications.
+- The ORCID profile is intentionally not listed on this site yet.
