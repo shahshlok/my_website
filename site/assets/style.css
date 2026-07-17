@@ -541,10 +541,6 @@ nav a {
     gap: 0.9rem;
   }
 
-  nav a:nth-child(2) {
-    display: none;
-  }
-
   .hero {
     grid-template-columns: 1fr;
     gap: 3rem;
