@@ -266,16 +266,33 @@ nav a {
 }
 
 .section-heading-inline {
-  display: flex;
-  gap: 2rem;
-  align-items: end;
-  justify-content: space-between;
   max-width: none;
 }
 
-.section-heading-inline .text-link {
+.section-heading-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.section-heading-title h2 {
+  margin-bottom: 1.25rem;
+}
+
+.section-heading-arrow {
   flex: none;
-  margin-bottom: 0.3rem;
+  color: var(--text);
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.section-heading-arrow:hover {
+  color: var(--accent);
+  transform: translate(0.15rem, -0.15rem);
 }
 
 .item-list,
@@ -551,7 +568,6 @@ nav a {
     position: static;
   }
 
-  .section-heading-inline,
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
