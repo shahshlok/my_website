@@ -322,10 +322,12 @@ nav a {
   border-top: 1px solid var(--line);
 }
 
-.writing-more {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 1.75rem;
+#writing .post-preview:last-child .item-links {
+  margin-top: 4.5rem;
+}
+
+#writing .post-preview:last-child .item-links .text-link {
+  margin-top: 0;
 }
 
 .item-meta {
