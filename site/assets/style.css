@@ -127,9 +127,9 @@ h3 {
 }
 
 .wordmark img {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 0.35rem;
+  width: clamp(2.75rem, 5vw + 1.75rem, 3.75rem);
+  height: clamp(2.75rem, 5vw + 1.75rem, 3.75rem);
+  border-radius: 0.4rem;
 }
 
 nav {
@@ -532,7 +532,7 @@ nav a {
   }
 
   .site-header {
-    align-items: flex-start;
+    align-items: center;
     min-height: auto;
     padding-block: 1.25rem;
   }
